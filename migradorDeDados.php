@@ -1,5 +1,5 @@
 <?php
-$servername = "192.168.0.1";
+$servername = "192.168.0.1"; // Ip do banco de dados
 $username = "usuario_banco";
 $password = "senha_banco";
 $dbname = "base_banco";
@@ -13,9 +13,9 @@ try {
 	setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 	date_default_timezone_set('America/Sao_Paulo');
 	
-	echo "########################################################\n";
-	echo "            Conexão realizada com sucesso!\n";
-	echo "########################################################\n";
+	echo "########################################################" . PHP_EOL;
+	echo "            Conexão realizada com sucesso!" . PHP_EOL;
+	echo "########################################################" . PHP_EOL;
 
     # Se o arquivo CSV estiver em um outro repositório deverá modificar o caminho, se não deixe no
     # mesmo repositório
